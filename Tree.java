@@ -6,7 +6,7 @@ import javax.xml.parsers.*;
 public class Tree {
     public static int level = 0;
 	public static void main(String[] args) throws ParserConfigurationException, SAXException, IOException {
-        String path = "/home/kourakodeur/Desktop/DIC1/semestre2/Design_Patters/";
+        String path = "PUT HERE YOUR PATH";
     
         String xmlString = pathToXml(path);
         Component document = xmlToDoc(xmlString);
